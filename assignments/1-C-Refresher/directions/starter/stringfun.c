@@ -57,7 +57,7 @@ int main(int argc, char *argv[]){
 
     opt = (char)*(argv[1]+1);   //get the option flag
 
-    //handle the help flag and then exit normally
+    //handle the help fxlag and then exit normally
     if (opt == 'h'){
         usage(argv[0]);
         exit(0);
